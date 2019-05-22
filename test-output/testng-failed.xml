@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRMPRO Automation suite ]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReportListener"/>
+    <listener class-name="com.qa.analyzer.MyTransformer"/>
+  </listeners>
+  <test name="CRMAutomation">
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTest"/>
+      <class name="com.crm.qa.tests.HomePageTest"/>
+      <class name="com.crm.qa.tests.ContactPageTest"/>
+    </classes>
+  </test> <!-- CRMAutomation -->
+</suite> <!-- Failed suite [CRMPRO Automation suite ] -->
