@@ -43,7 +43,7 @@ public class LoginPageTest extends TestBase {
 		loginPage = new LoginPage();
 	}
 
-	@Test(priority = 3)
+	/*@Test(priority = 3)
 	public void loginPageValidateTitleTest() {
 		extentTest = extent.startTest("loginPageValidateTitleTest");
 		log.info("Validate Login page Logo TC1");
@@ -62,7 +62,7 @@ public class LoginPageTest extends TestBase {
 		log.info("Validate Login page Image TC2");
 		boolean crmimg = loginPage.validateCRMImage();
 		Assert.assertTrue(crmimg);
-	}
+	}*/
 
 	@Test(priority = 1)
 	public void loginTest() throws InterruptedException {
