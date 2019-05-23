@@ -9,9 +9,9 @@
 	<test name="CRMAutomation">
 		<classes>
 			<class name="com.crm.qa.tests.LoginPageTest" />
-			<class name="com.crm.qa.tests.HomePageTest" /> 
+			<!--<class name="com.crm.qa.tests.HomePageTest" /> 
 			<class name="com.crm.qa.tests.ContactPageTest" /> 
-			<!-- <class name="com.crm.qa.tests.ContactPageTest2" /> -->
+			 <class name="com.crm.qa.tests.ContactPageTest2" /> -->
 		</classes>
 	</test> <!-- CRMAutomation -->
 </suite> <!-- Suite -->
